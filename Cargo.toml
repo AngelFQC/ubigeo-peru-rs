@@ -1,0 +1,7 @@
+[package]
+name = "ubigeo-peru"
+version = "0.1.0"
+authors = ["Angel Fernando Quiroz Campos <angelfqc.18@gmail.com>"]
+edition = "2018"
+
+[dependencies]
