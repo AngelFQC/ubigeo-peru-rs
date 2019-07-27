@@ -1,6 +1,8 @@
 [package]
 name = "ubigeo-peru"
+description = "Lista de regiones, provincias y distritos de Peru"
 version = "0.1.0"
+license = "GPL-3.0"
 authors = ["Angel Fernando Quiroz Campos <angelfqc.18@gmail.com>"]
 edition = "2018"
 
