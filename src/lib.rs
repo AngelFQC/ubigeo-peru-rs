@@ -1,7 +1,13 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
+mod reniec;
+mod inei;
+
+#[derive(Debug)]
+pub struct Ubigeo {
+    pub departamento: &'static str,
+    pub provincia: &'static str,
+    pub distrito: &'static str,
+    pub nombre: &'static str
 }
+
+pub static RENIEC: &[Ubigeo] = reniec::RENIEC;
+pub static INEI: &[Ubigeo] = inei::INEI;
